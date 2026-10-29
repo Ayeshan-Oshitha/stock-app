@@ -1,0 +1,10 @@
+<Project>
+  <!-- Central package management: NuGet versions are defined once here for all projects.
+       Projects reference packages without a Version attribute. -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Example: <PackageVersion Include="Yarp.ReverseProxy" Version="x.y.z" /> -->
+  </ItemGroup>
+</Project>
