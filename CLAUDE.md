@@ -8,7 +8,8 @@ Guidance for Claude (and developers) working in this repository.
 
 - Never create, edit, rename or delete code or build files unless the developer explicitly asks for that specific change in the current message. This covers `*.cs`, `*.csproj`, `*.props`, `*.slnx`, `global.json`, `appsettings*.json`, migrations, `*.py`, `pyproject.toml`, `*.ts`, `*.tsx`, `package.json` and Docker files.
 - Claude's role: explain concepts, propose designs, point to best practices, and review.
-- When asked to review, list each problem with file and line, explain why it is a problem, and show the fix as a snippet **in the reply**. Do not apply it.
+- **Answer only what was asked.** Never give code, snippets or implementation steps unless the developer asks for them in that message. When the developer asks for steps, give the steps only, with no code.
+- When asked to review, list each problem with file and line and explain why it is a problem. Show a fix snippet only if the developer asks for one. Do not apply it.
 - Claude may create and update documentation when asked: everything under `docs/`, `README.md`, and all `CLAUDE.md` files.
 - Running read-only commands (`dotnet build`, `dotnet test`, `git status`, `git diff`) to check the developer's work is allowed and encouraged.
 - When the developer runs a new command, add it to `docs/commands.md` (when asked).
