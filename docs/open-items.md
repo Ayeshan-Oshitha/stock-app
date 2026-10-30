@@ -4,9 +4,7 @@ Topics still to discuss and document. Pick up from here in the next session.
 
 ## Decisions still to make
 
-| # | Topic | Problem | Proposed direction |
-|---|---|---|---|
-| 14 | Raw and adjusted prices | Splits and bonus issues create false price drops in charts and corrupt forecasting data | Market Data stores both raw and adjusted prices; charts and analytics use adjusted |
+None at the moment.
 
 ## Documentation still to write
 
